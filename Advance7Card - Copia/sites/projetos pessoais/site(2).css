@@ -1,0 +1,272 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+
+
+}
+.center{
+    max-width: 100px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+}
+
+header{
+ 
+    background-color: antiquewhite;
+    padding:20px 0;
+    border-bottom:2px solid #16507b;
+
+}
+
+.logo{
+    color: #16507b;
+}
+    .meno a:hover{
+        color: #16507b;
+    }
+
+
+body{
+      min-height: 100vh;
+      background: #0f0f4eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+
+.container-bolha{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.bolhas{
+    position:absolute;
+    display: flex;
+    
+}
+
+.bolhas span {
+    width: 30px;
+    height: 30px;
+    background: rgb(55, 25, 220);
+    margin:0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #e5ff0044,
+    0 0 50px #1f03f2,
+    0 0 100px #0011ff4f;
+    animation: animar calc(133s/ var(--i)) linear infinite;
+}
+@keyframes animar {
+    0% {
+   transform: translateY(100vh) scale(0);
+
+    }
+  100% {
+    transform: translateY(-10vh) scale(1);
+  }
+
+
+}
+
+
+
+
+
+.bolhas span:nth-of-type(even) {
+   background: #2dffdc;
+   box-shadow: 0 0 0 10px #e5ff0044,
+   0 0 50px #1304e4,
+   0 0 100px #6e0af1;
+
+}
+
+
+
+    
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+   
+}
+
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 2px 2px 6px #4b00f9;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid yellowgreen;
+    border-left: 1px solid yellowgreen;
+    backdrop-filter: blur(2px);
+    background-size: 10px;
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s;
+    
+}
+
+.container .card:hover .content{
+    
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .content h1{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+   
+}
+.container .card .content h3{
+    font-size: 1,8em;
+    color:wheat;
+    z-index: 1;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: wheat;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.container .card .content .midia{
+   align-items: center;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    margin-left: 55px;
+    border-style: 100px;
+    box-shadow: 2px 5px 5px 5px #6a00ff97;
+    
+
+}
+.footer p{
+    background: #4b00f9;
+    color:yellowgreen;
+    font-style: arial;
+    font-weight: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(33, 42, 219);
+    font-family: Arial;
+    width: 150px;
+    height: 149px;
+    background-image: url(../sagrada\ geometrio.png);
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 100px;
+    padding: 80px;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-weight: 677;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    background-size: 200px;
+    
+}
+
+
+
+
+/*🔮🧙✨*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

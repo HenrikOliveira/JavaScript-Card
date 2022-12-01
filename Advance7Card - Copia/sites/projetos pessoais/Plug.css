@@ -1,0 +1,83 @@
+body{
+    background: #6a00ff;
+   
+}
+
+header{
+text-align: center;
+font-family: arial;
+}
+
+section{
+
+    background: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    height: 85pxpx;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 5px 5.5px rgba(1, 52, 234, 0.533);
+    background-color: #1a9ff3;
+}
+
+div{ 
+    text-align: center;
+    
+
+}
+
+
+footer {
+    background: #4b00f9;
+    color: yellowgreen;
+    font-style: arial;
+    font-weight: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(33, 42, 219);
+    font-family: Arial;
+    width: 150px;
+    height: 149px;
+    background-image: url(../Advance7Card/sagradaRaiz.jpg);
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 50px;
+    padding: 80px;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-weight: 677;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    background-size: 200px;
+}
+
+
+
+
+img{ 
+    height: 170px;
+    border-radius: 270%;
+    width: 170px;
+}
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

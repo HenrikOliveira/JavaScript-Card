@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../Advance7Card/DeusMaya.jpg);
+   background-size:cover;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+   
+}
+
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 2px 2px 6px #4b00f9;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid yellowgreen;
+    border-left: 1px solid yellowgreen;
+    backdrop-filter: blur(2px);
+    background-size: 10px;
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.7s;
+    
+}
+
+.container .card:hover .content{
+    
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container .card .content h1{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+   
+}
+.container .card .content h3{
+    font-size: 1,8em;
+    color:wheat;
+    z-index: 1;
+}
+
+.container .card .content p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+
+}
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: wheat;
+    color: #000;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.container .card .content .midia{
+   align-items: center;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    margin-left: 55px;
+    border-style: 100px;
+    box-shadow: 2px 5px 5px 5px #6a00ff97;
+    
+
+}
+.footer p{
+    background: #4b00f9;
+    color:yellowgreen;
+    font-style: arial;
+    font-weight: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(33, 42, 219);
+    font-family: Arial;
+    width: 150px;
+    height: 149px;
+    background-image: url(../sagrada\ geometrio.png);
+    align-items: center;
+    border-radius: 100%;
+    margin-top: 100px;
+    padding: 80px;
+    font-size: 12px;
+    padding-left: 50px;
+    margin-left: 50px;
+    font-weight: 677;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    background-size: 200px;
+    
+}
+
+
+
+
+/*🔮🧙✨*/
